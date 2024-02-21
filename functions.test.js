@@ -57,11 +57,14 @@ describe("addLastName function", () => {
     const user = addLastName("Perez");
     expect(user).toEqual(expectedUser);
   });
+  it("should return an user object with undefined name when no name is sent", () => {
+    const user = addLastName();
+    expect(user.lastname).toEqual(undefined);
+  });
 });
 
 /*
-COVERAGE
-
+COVERAGE 
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                                                                                                                                 
 ---------------------|---------|----------|---------|---------|-------------------
 All files            |     100 |      100 |     100 |     100 | 
@@ -72,5 +75,5 @@ All files            |     100 |      100 |     100 |     100 |
 ---------------------|---------|----------|---------|---------|-------------------
 
 Test Suites: 2 passed, 2 total
-Tests:       14 passed, 14 total
+Tests:       15 passed, 15 total
 */

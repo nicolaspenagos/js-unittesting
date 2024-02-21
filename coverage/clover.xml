@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1708553548859" clover="3.2.0">
-  <project timestamp="1708553548859" name="All files">
+<coverage generated="1708554509250" clover="3.2.0">
+  <project timestamp="1708554509250" name="All files">
     <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5" elements="14" coveredelements="14" complexity="0" loc="9" ncloc="9" packages="2" files="2" classes="2"/>
     <package name="js-unittesting">
       <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
@@ -10,8 +10,8 @@
         <line num="2" count="7" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
       </file>
     </package>
