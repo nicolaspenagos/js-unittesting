@@ -3,11 +3,9 @@ const functions = {
   isNull: () => null,
   checkTruthy: (value) => value === true,
   addLastName: (lastname) => {
-    const user = {firstname: 'Pepito', lastname}
+    const user = { firstname: "Pepito", lastname };
     return user;
-  }
-}
+  },
+};
 
 module.exports = functions;
-
-

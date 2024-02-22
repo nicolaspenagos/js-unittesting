@@ -40,6 +40,9 @@ describe("isNull function", () => {
   it("should always return null", () => {
     expect(isNull()).toBe(null);
   });
+  it("should always return null", () => {
+    expect(isNull("dklasjdaskljd")).toBe(null);
+  });
 });
 
 describe("checkTruthy function", () => {
